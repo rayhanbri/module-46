@@ -4,6 +4,7 @@ const ProductForm = ({handleAddProduct}) => {
 
   const [error,setError] = useState('')
 
+
   const handleSubmit=e=>{
     e.preventDefault();
     // console.log(e.target.name.value)
@@ -19,6 +20,11 @@ const ProductForm = ({handleAddProduct}) => {
      }
      else if(price.length === 0){
       setError('please provide  a price');
+      return;
+     }
+
+     else if(quantity.length === 0){
+      setError('pleaser porvide a quantity');
       return;
      }
 
