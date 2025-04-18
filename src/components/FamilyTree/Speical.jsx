@@ -3,7 +3,7 @@ import { AssetContext } from './FamilyTree';
 
 const Speical = ({asset}) => {
   
-  const newAsset = useContext(AssetContext)
+  const newAsset = useContext(AssetContext);
 
   return (
     <div>
