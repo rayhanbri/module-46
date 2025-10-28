@@ -1,0 +1,27 @@
+what is action in form 
+what is e.pervent default why we use it 
+what is Controllled from and what is uncontrolled
+what is prop drilling
+what is context api 
+
+
+module question ////
+how to get data from form with onSubmit
+how to get data from form with action
+Controllled componenet for each field function 
+
+
+
+module flow ----------
+
+1.simple form
+2.Form Action
+3.Controllled Field
+4.Handle all input field with one object Controllled from must search
+5.Uncontorlled using use ref
+6.Hooks use input field
+7.Hook Form
+8.Product management Product Form
+9.showing formdata  in product  table and add validation in form
+10.Family Tree  Context api 
+11.add money
