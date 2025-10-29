@@ -1,14 +1,19 @@
-what is action in form 
-what is e.pervent default why we use it 
-what is Controllled from and what is uncontrolled
-what is prop drilling
-what is context api 
-
+Handle all input field with one object Controllled from must search
+what is custom hook and how to create it basic principle of custom hook
+HOok ektu bhalo kore dhekho 
 
 module question ////
-how to get data from form with onSubmit
-how to get data from form with action
-Controllled componenet for each field function 
+1. how to get data from form with onSubmit
+2. how to get data from form with action
+3 .Controllled componenet for each field function 
+4. how to  show error in controll component(caution clear the error  after  condition is met)
+5.How to create a uncontrolled componenet using use ref.
+6.Product Form Error is important
+7.if Yout have to set miltiple data  in use state how to do it .
+8.How show product on a table by using manipulate
+9.How create an  context .
+10.How send state through context api . 
+
 
 
 

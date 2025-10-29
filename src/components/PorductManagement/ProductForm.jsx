@@ -1,42 +1,42 @@
 import React, { useState } from 'react';
 
-const ProductForm = ({handleAddProduct}) => {
+const ProductForm = ({ handleAddProduct }) => {
 
-  const [error,setError] = useState('')
+  const [error, setError] = useState('')
 
 
-  const handleSubmit=e=>{
+  const handleSubmit = e => {
     e.preventDefault();
     // console.log(e.target.name.value)
     const name = e.target.name.value;
     const price = e.target.price.value;
-    const quantity= e.target.quantity.value;
+    const quantity = e.target.quantity.value;
 
     // console.log(name,price,quantity)
-
-     if(name.length === 0){
+    //  must return it 
+    if (name.length === 0) {
       setError('please provide a name')
       return;
-     }
-     else if(price.length === 0){
+    }
+    else if (price.length === 0) {
       setError('please provide  a price');
       return;
-     }
+    }
 
-     else if(quantity.length === 0){
+    else if (quantity.length === 0) {
       setError('pleaser porvide a quantity');
       return;
-     }
+    }
 
 
-    const newProduct ={
+    const newProduct = {
       name,
       price,
       quantity
     }
-  // console.log(newProduct)
+    // console.log(newProduct)
 
-  handleAddProduct(newProduct)
+    handleAddProduct(newProduct)
 
   }
   return (
@@ -50,8 +50,8 @@ const ProductForm = ({handleAddProduct}) => {
         <br />
         <input type="submit" value="Submit kor" />
       </form>
-      <p style={{color:'red'}}>{error}</p>
-      
+      <p style={{ color: 'red' }}>{error}</p>
+
     </div>
   );
 };

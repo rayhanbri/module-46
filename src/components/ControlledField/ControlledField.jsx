@@ -6,6 +6,8 @@ const ControlledField = () => {
   const [error,setError] = useState();
   const handleSubmit  = (e) =>{
     e.preventDefault();
+    console.log(e.target.email.value)
+    console.log(e.target.password.value)
   }
 
   const handleOnChange = e => {

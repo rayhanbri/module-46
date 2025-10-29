@@ -16,11 +16,11 @@ const HookForm = () => {
   return (
     <div>
       <form onSubmit={handleSubmit} >
-        <input defaultValue={name} onChange={nameOnChange} type="text" />
+        <input defaultValue={name} onChange={nameOnChange} type="text" placeholder='name' />
         <br />
-         <input type="email" name="" defaultValue={email} onChange={emailOnChange}  />
+         <input type="email" name="" defaultValue={email} onChange={emailOnChange} placeholder='email'  />
         <br />
-        <input type="password" name=""  defaultValue={password} onChange={passwordOnChange} />
+        <input type="password" placeholder='password' name=""  defaultValue={password} onChange={passwordOnChange} />
         <br />
         <input type="submit" value="sub" />
         
